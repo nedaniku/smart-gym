@@ -679,10 +679,6 @@ video {
   right: 0px;
 }
 
-.right-16 {
-  right: 4rem;
-}
-
 .isolate {
   isolation: isolate;
 }
@@ -2062,6 +2058,10 @@ video {
 
 .align-super {
   vertical-align: super;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-lg {

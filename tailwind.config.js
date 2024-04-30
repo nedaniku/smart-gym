@@ -10,7 +10,8 @@ module.exports = {
       'light-blue' : '#6A7CBC',
       'pure-w' : '#ffff'
     },
-    extend: {},
+    extend: { 
+    },
   },
   plugins: [],
 }
