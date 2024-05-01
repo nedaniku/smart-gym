@@ -1,6 +1,11 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
+    fontFamily:{
+
+      body: ['IRANSansWeb(FaNum)'],
+      display: ['IRANSansWeb(FaNum)']
+    },
     colors:{
       transparent: 'transparent',
       current: 'currentColor',

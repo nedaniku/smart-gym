@@ -588,6 +588,18 @@ video {
   }
 }
 
+@font-face {
+  font-family: "IRANSansWeb(FaNum)";
+
+  src: url("https://db.onlinewebfonts.com/t/5c53f1a72f61b5b51e2ea79a22ebc38b.eot");
+
+  src: url("https://db.onlinewebfonts.com/t/5c53f1a72f61b5b51e2ea79a22ebc38b.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5c53f1a72f61b5b51e2ea79a22ebc38b.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5c53f1a72f61b5b51e2ea79a22ebc38b.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5c53f1a72f61b5b51e2ea79a22ebc38b.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5c53f1a72f61b5b51e2ea79a22ebc38b.svg#IRANSansWeb(FaNum)")format("svg");
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -677,6 +689,10 @@ video {
 
 .right-0 {
   right: 0px;
+}
+
+.right-\[9\.5rem\] {
+  right: 9.5rem;
 }
 
 .isolate {
@@ -2009,6 +2025,10 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2065,8 +2085,12 @@ video {
   vertical-align: super;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font-body {
+  font-family: IRANSansWeb(FaNum);
+}
+
+.font-display {
+  font-family: IRANSansWeb(FaNum);
 }
 
 .text-lg {
@@ -2416,6 +2440,11 @@ video {
 
 .drop-shadow {
   --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.drop-shadow-2xl {
+  --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 

@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
+@font-face {
+    font-family: "IRANSansWeb(FaNum)";
+    src: url("https://db.onlinewebfonts.com/t/5c53f1a72f61b5b51e2ea79a22ebc38b.eot");
+    src: url("https://db.onlinewebfonts.com/t/5c53f1a72f61b5b51e2ea79a22ebc38b.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5c53f1a72f61b5b51e2ea79a22ebc38b.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5c53f1a72f61b5b51e2ea79a22ebc38b.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5c53f1a72f61b5b51e2ea79a22ebc38b.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5c53f1a72f61b5b51e2ea79a22ebc38b.svg#IRANSansWeb(FaNum)")format("svg");
+}
 @tailwind utilities;
