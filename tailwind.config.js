@@ -13,7 +13,8 @@ module.exports = {
       'yellow' : '#E7FE58',
       'white' : '#F0F3FF',
       'light-blue' : '#6A7CBC',
-      'pure-w' : '#ffff'
+      'pure-w' : '#ffff',
+      'purple' : '#DDE4FE',
     },
     extend: { 
     },
