@@ -919,10 +919,6 @@ video {
   height: 3.5rem;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .h-20 {
   height: 5rem;
 }
@@ -945,6 +941,14 @@ video {
 
 .h-8 {
   height: 2rem;
+}
+
+.h-\[30rem\] {
+  height: 30rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .w-20 {
@@ -2024,6 +2028,11 @@ video {
 .border-light-blue {
   --tw-border-opacity: 1;
   border-color: rgb(106 124 188 / var(--tw-border-opacity));
+}
+
+.border-purple {
+  --tw-border-opacity: 1;
+  border-color: rgb(221 228 254 / var(--tw-border-opacity));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {

@@ -17,6 +17,7 @@ module.exports = {
       'purple' : '#DDE4FE',
       'border-color': '#cbd5e1',
       'secondary-blue' : '#232441',
+      
     },
     extend: { 
     },
