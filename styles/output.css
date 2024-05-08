@@ -919,6 +919,10 @@ video {
   height: 3.5rem;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .h-20 {
   height: 5rem;
 }
@@ -941,14 +945,6 @@ video {
 
 .h-8 {
   height: 2rem;
-}
-
-.h-\[30rem\] {
-  height: 30rem;
-}
-
-.h-16 {
-  height: 4rem;
 }
 
 .w-20 {
