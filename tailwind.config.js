@@ -17,6 +17,11 @@ module.exports = {
       'purple' : '#DDE4FE',
       'border-color': '#cbd5e1',
       'secondary-blue' : '#232441',
+      'secondary3-ligh' : '#232441',
+      'second-bg' : '#1e3a8a',
+      'third3-ligh': '#52559F',
+      
+
       
     },
     extend: { 
